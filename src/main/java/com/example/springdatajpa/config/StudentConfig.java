@@ -12,7 +12,7 @@ import java.util.List;
 
 @Configuration
 public class StudentConfig {
-
+    // Just a new line.
     @Bean
     public CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
         return args -> {
